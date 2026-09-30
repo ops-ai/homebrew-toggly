@@ -1,2 +1,1 @@
-# homebrew-toggly
-Homebrew tap for Toggly CLI (formula installs binary as toggly)
+# Homebrew tap for Toggly CLI — formula published by CLI Distribute after cli-v* releases.
