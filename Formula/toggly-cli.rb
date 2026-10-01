@@ -1,26 +1,26 @@
 class TogglyCli < Formula
   desc "Command-line interface for Toggly feature flag management"
   homepage "https://docs.toggly.io/sdks/cli"
-  version "0.3.2"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ops-ai/Toggly.FeatureManagement/releases/download/cli-v0.3.2/toggly-cli-macos-arm64.tar.gz"
-      sha256 "1c3a5862376da98d3a0a5caf9d567f33c59805a9fc7690c7e4d83219b42069bd"
+      url "https://github.com/ops-ai/Toggly.FeatureManagement/releases/download/cli-v0.4.0/toggly-cli-macos-arm64.tar.gz"
+      sha256 "1094110a951ff1d3b7002efe6080a0b676a146bd311f4d28228b5ed1c8dbb9c5"
     else
-      url "https://github.com/ops-ai/Toggly.FeatureManagement/releases/download/cli-v0.3.2/toggly-cli-macos-x64.tar.gz"
-      sha256 "9d6b6fdc9481ecfb6749710802f947352c8c2df7855542ef8ef5ec91a6a3b508"
+      url "https://github.com/ops-ai/Toggly.FeatureManagement/releases/download/cli-v0.4.0/toggly-cli-macos-x64.tar.gz"
+      sha256 "0fc7763927e751b7084b0483171e295ea79bfb4915663ac027cd7d04b1377ac9"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/ops-ai/Toggly.FeatureManagement/releases/download/cli-v0.3.2/toggly-cli-linux-arm64.tar.gz"
-      sha256 "7ed64bcecd95f4b158f8d9710941eeb8822a63a83fdd52f18d5b29ced900364c"
+      url "https://github.com/ops-ai/Toggly.FeatureManagement/releases/download/cli-v0.4.0/toggly-cli-linux-arm64.tar.gz"
+      sha256 "4ef5ed31b29fb59b4f969d5e8f15896b92bc3b77b7d83f8813b50661ca8c7327"
     else
-      url "https://github.com/ops-ai/Toggly.FeatureManagement/releases/download/cli-v0.3.2/toggly-cli-linux-x64.tar.gz"
-      sha256 "d63b1acb5256bdb3438622d1a07c854e13302a974d34e2236ee58b56bc855d8b"
+      url "https://github.com/ops-ai/Toggly.FeatureManagement/releases/download/cli-v0.4.0/toggly-cli-linux-x64.tar.gz"
+      sha256 "0bfbc625405475e64d441296274b8dbe67eab87d920cea808034e530645846b3"
     end
   end
 
